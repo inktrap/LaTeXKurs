@@ -1,5 +1,9 @@
 # Herzlich willkommen zum LaTeX-Kurs
 
+Weitere Infos, Links und Dokumentation sind im Wiki zu finden (siehe rechts).
+Änderungen am Wiki sind herzlich willkommen, aber bitte mailt mir vorher eurem
+Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
+
 # Beispiele, Folien
 
 Alles ist nach Möglichkeit nach Vorlesungstag sortiert.
