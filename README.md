@@ -8,9 +8,9 @@ Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
 
 Alles ist nach Möglichkeit nach Vorlesungstag sortiert.
 
- - TODO: ``tex`` enthält die erstellten sowie verwendeten Beispiele
- - TODO: ``pdf`` enthält die (eventuell überarbeiteten) Folien.
- - TODO: ``src`` enthält die Quelltexte der Folien
+ - die (eventuell überarbeiteten) Folien sind als ``template.pdf`` gespeichert
+ - ``tex`` enthält die erstellten sowie verwendeten Beispiele
+ - ``src`` enthält die Quelltexte der Folien
 
 
 # Kursablauf, behandelte Themen, Schwerpunkte

@@ -1,0 +1,103 @@
+\begin{frame}{\LaTeX-Praxis}
+
+\end{frame}
+
+\begin{frame}{Editor}
+
+Um erste \LaTeX-Erfahrungen zu machen
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  rufen Sie \url{https://www.overleaf.com/} auf
+\item
+  dort schalten Sie links oben auf \texttt{Source}
+\item
+  dann schalten Sie rechts oben den \texttt{Preview}-Schalter auf
+  \texttt{Manual}
+\item
+  dann löschen Sie das Dokument
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{erste (!) Dokumenttypen}
+
+Sie müssen bei jedem \LaTeX-Dokument den Dokumenttypen angeben:
+\begin{itemize}
+\item \texttt{article} Journals, usw.
+\item \texttt{report} längere Berichte, kurze Bücher, Diplomarbeiten
+\item \texttt{book} richtige Bücher
+\item \texttt{letter} Briefe
+\item \texttt{beamer} Präsentationen (siehe \LaTeX/Präsentationen)
+\end{itemize}
+
+Weiterhin müssen Sie definieren, wo unser Dokument anfängt.
+
+\end{frame}
+
+\begin{frame}[fragile]{Minimalbeispiel (Struktur)}
+
+\begin{verbatim}
+
+\documentclass{article}
+
+\begin{document}
+    Hello World!
+\end{document}
+\end{verbatim}
+
+\begin{itemize}
+\item Dokumentaufbau (Nicht-Dokument, Dokument, Text)
+\item Frage: was ist was?
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Syntax}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+    Ab und an werde ich die Befehlssyntax näher besprechen, wie in diesen
+    Beispielen
+\end{itemize}
+
+\begin{verbatim}
+\befehl{PARAMETER}
+
+\begin{PARAMETER}
+\end{PARAMETER}
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]{Keine Probleme?}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Finden Sie Probleme in diesem Beispiel?
+\end{itemize}
+
+\begin{verbatim}
+\documentclass{article}
+\begin{document}
+Außerdem und überhaupt: „wir“ wollen mehr!
+\end{document}
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}{Probleme: Umlaute und Sonderzeichen}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Anführungszeichen
+\item
+  für deutschsprachige Arbeiten unübliche Ränder und Abstände
+\item
+  keine Kommentare
+\end{itemize}
+
+\end{frame}

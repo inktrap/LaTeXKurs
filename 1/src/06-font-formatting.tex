@@ -1,0 +1,109 @@
+\begin{frame}[fragile]{Textformatierung}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Die Textformatierung findet mit einem Schalter statt.
+\item
+  Dieser nimmt keine Parameter und bleibt bei Größenangaben aktiv, bis
+  ein anderer Schalter aktiv wird.
+\item
+  Hinweis: \texttt{\textbackslash{}LaTeX}, etc. ist kein Schalter,
+  sondern nur ein Textbefehl
+\end{itemize}
+
+Syntax:
+
+\begin{verbatim}
+% schalter ist nicht aktiv
+\schaltername
+% schalter ist aktiv
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}{Größe}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  \texttt{\textbackslash{}tiny}
+\item
+  \texttt{\textbackslash{}scriptsize}
+\item
+  \texttt{\textbackslash{}footnotesize}
+\item
+  \texttt{\textbackslash{}small}
+\item
+  \texttt{\textbackslash{}normalsize}
+\item
+  \texttt{\textbackslash{}large}
+\item
+  \texttt{\textbackslash{}Large}
+\item
+  \texttt{\textbackslash{}LARGE}
+\item
+  \texttt{\textbackslash{}huge}
+\item
+  \texttt{\textbackslash{}Huge}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Übung}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  betrachten Sie folgende Geschichte:
+\item
+  \texttt{tiny\ and\ huge\ are\ walking\ to\ the\ small\ house\ of\ footnotesize.\ tiny\ says:\ “this\ is\ too\ Huge\ for\ me”\ and\ huge\ thinks\ thats\ not\ normalsize\ either}
+\item
+  formatieren Sie das Wort der ersten Größe mit der letzten vorkommenden
+  Größe.
+\item
+  d.h.: tiny mit normalsize, huge mit huge, usw.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Größe als Umgebung}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  die Größe kann auch per Umgebung definiert werden:
+  \texttt{\textbackslash{}begin\{scriptsize\}\ Ein\ kleiner\ Satz.\ \textbackslash{}end\{scriptsize\}\ Ich\ bin\ wieder\ normal.}
+\item
+  dies ist häufig viel leichter zu überschauen, da man die Umgebung
+  bewusst beendet.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Schriftformatierung und Übung}
+
+Übernehmen Sie folgende Formatierungsangaben in Ihr Cheatsheet:
+
+\begin{verbatim}
+Laut
+\textsc{Gaius Iulius Caesar} sollte man neue Begriffe
+\textit{kursiv} schreiben und nicht
+\textbf{fett}, besonders
+\texttt{Schreibmaschinen} sind eher
+\texttt{\textbf{\textit{total}}} unnötig.
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}{Hausaufgabe: Farben}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  finden Sie heraus, wie sie Text farbig gestalten können
+\item
+  zeigen Sie dies morgen an einem Beispiel
+\end{itemize}
+
+\end{frame}
