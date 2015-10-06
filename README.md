@@ -1,10 +1,6 @@
 # Herzlich willkommen zum LaTeX-Kurs
 
-Weitere Infos, Links und Dokumentation sind im Wiki zu finden (siehe rechts).
-Änderungen am Wiki sind herzlich willkommen, aber bitte mailt mir vorher eurem
-Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
-
-# Beispiele, Folien
+## Beispiele, Folien
 
 Alles ist nach Möglichkeit nach Vorlesungstag sortiert.
 
@@ -12,8 +8,13 @@ Alles ist nach Möglichkeit nach Vorlesungstag sortiert.
  - ``tex`` enthält die erstellten sowie verwendeten Beispiele
  - ``src`` enthält die Quelltexte der Folien
 
+## Wiki
 
-# Kursablauf, behandelte Themen, Schwerpunkte
+Weitere Infos, Links und Dokumentation sind im Wiki zu finden (siehe rechts).
+Änderungen am Wiki sind herzlich willkommen, aber bitte mailt mir vorher eurem
+Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
+
+## Kursablauf, behandelte Themen, Schwerpunkte
 
  - Tag 1: Schwerpunkte: Einführung, Dokumentstruktur und Befehle
     - Organisatorisches
@@ -39,8 +40,15 @@ Alles ist nach Möglichkeit nach Vorlesungstag sortiert.
     - 
     - 
 
-# Sonstiges
+## Sonstiges
 
- - Patches sind natürlich herzlich willkommen, einfach einen
-   [Pull-Request](https://help.github.com/articles/using-pull-requests/) machen
+ - Fehler können über ``Issues`` gemeldet werden
+ - weitere Infos siehe Wiki
+
+## Patches
+
+ - sind herzlich willkommen
+ - um dieses Repository zu verändern, müsst ihr bei GitHub angemeldet sein
+ - dann einfach einen [Pull-Request](https://help.github.com/articles/using-pull-requests/) machen
+ - ich prüfe das dann und pflege den ein
 
