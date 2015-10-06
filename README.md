@@ -23,10 +23,17 @@ Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
     - erstes Dokument (Theorie, Praxis, Aufgaben)
     - Textformatierung
     - häufige Befehle (TPA)
- - Tag 2: Schwerpunkte: Vertiefung, Textformatierung
-    - 
-    -
-    -
+ - Tag 2: Schwerpunkte: Vertiefung, Textformatierung, Abstände
+    - Fragen und Antworten von Tag 1
+    - Optionen für Dokumenttypen, Umgebungen
+    - eine einfache Titelseite
+    - Schrift, Schriftformen
+    - reservierte Zeichen, verbatim, verb, usw.
+    - Leerzeichen, Wortabstände
+    - Kopf- und Fußzeilen, Seitenzahlen
+    - Nummerierungen
+    - eigene Befehle
+    - Besprechung der IDE-Installation
  - Tag 3:
     - 
     - 
