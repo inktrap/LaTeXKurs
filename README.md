@@ -34,10 +34,18 @@ Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
     - Nummerierungen
     - eigene Befehle
     - Besprechung der IDE-Installation
- - Tag 3:
-    - 
-    - 
-    - 
+ - Tag 3: Schwerpunkte: [Didaktikänderung!](https://github.com/inktrap/LaTeXKurs/wiki/Didactic)
+    - Probleme bei der IDE-Installation besprochen
+    - Fonteinbindung nachbereitet und erklärt
+    - Kurswebseite
+    - Dokumenttypen
+    - Sektionen
+    - Kopf, Fußzeilen
+    - Textformatierung, Schrift, usw., Verbatim
+    - Titelblatt, Inhaltsverzeichnis
+    - Tabellen
+    - Tabellenverzeichnis
+    - Labels (angesprochen, HA enthält Labelbenutzung)
  - Tag 4:
     - 
     - 
