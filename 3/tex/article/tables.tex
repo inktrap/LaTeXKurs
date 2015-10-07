@@ -1,0 +1,24 @@
+% Wir erstellen Tabellen
+\section{Tabellen}
+\blindtext
+
+\begin{table}[t!] 
+    % t[op] b[ottom] h[ere] und andere? 
+    % 'tbh' default, kombinierbar, präferenz ist abhängig von der Reihenfolge der Optionen 
+    % '!' erzwingt: [h!]
+    \begin{center}
+        \label{tab:zoo}
+        \begin{tabular}{c|r|l|r}
+            Pferde & Ziegen & Hasen & Schafen \\\hline\hline
+            1 & 4 & 2 & 100 \\
+            1 & 4 & 2 & 100 \\
+            1 & 4 & 2 & 100 \\
+            1 & 4 & 2 & 100 \\\hline
+        \end{tabular}
+    \caption[Tiere im Zoo. So.]{Das sind alle unsere Tiere im Zoo, aber eigentlich haben wir noch viel mehr, die wir gar nicht kennen und der Donald Knuth ist auch dabei als Stammgast.}
+    \end{center}
+\end{table}
+
+\blindtext
+\clearpage
+\listoftables
