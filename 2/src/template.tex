@@ -8,6 +8,8 @@
 \usepackage{ifxetex,ifluatex}
 \usepackage{lmodern}
 \usepackage{metalogo}
+\usepackage{listings}
+\usepackage{url}
 
 \ifxetex
   \usepackage{fontspec,xltxtra,xunicode}
@@ -53,46 +55,55 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \setcounter{secnumdepth}{0}
 
-\title{\LaTeX \ für Einsteiger}
+\date{}
 \author{Valentin Heinz}
+\title{\LaTeX \ für Einsteiger}
+\subtitle{Zweite Sitzung}
 \date{\today}
+
+%\includeonly{}
 
 \begin{document}
 
 \maketitle
-\title{Einführung}
-\include{01-intro}
 
-\title{Geschichte}
-\include{02-latex-history}
+\title{Wiederholung}
+\include{repeat}
+
+\title{Fragen von letzter Stunde}
+\include{questions}
+
+\title{Themen}
+\include{topics}
+
+\title{Dokumenttypen und Schrift}
+\include{font}
+
+\title{Titelseite}
+\include{title}
+
+\title{Reservierte Zeichen}
+\include{escape}
+
+\title{Leerzeichen und Abstände}
+\include{spaces}
+
+\title{Seitengestaltung}
+\include{pages}
+
+\title{Nummerierung anpassen}
+\include{numbering}
+
+\title{Eigene Befehle}
+\include{cmd}
+
+\title{Hausaufgabe}
+\include{ha}
+
+\title{Die IDE}
+\include{texstudio}
 
 \title{Pause}
-\include{pause}
-
-\title{Methodik}
-\include{03-latex-method}
-
-\title{Pause}
-\include{pause}
-
-\title{Struktur}
-\include{04a-structure-example}
-
-\title{verbesserte Struktur}
-\include{04b-structure-improved}
-
-\title{Pause}
-\include{pause}
-
-\title{Syntax}
-\include{05-}
-\title{Schrift}
-\include{06-font-formatting}
-
-\title{Pause}
-\include{pause}
-
-\title{mehr Struktur}
-\include{07-more-structure}
+\include{break}
 
 \end{document}

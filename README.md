@@ -47,7 +47,7 @@ Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
     - Tabellenverzeichnis
     - Labels (angesprochen, HA enthält Labelbenutzung)
  - Tag 4:
-    - 
+    - noch fehlende Teile: Abstracts, Fußnoten, dt. Anführungszeichen
     - 
     - 
  - Tag 5:
