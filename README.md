@@ -47,13 +47,21 @@ Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
     - Tabellenverzeichnis
     - Labels (angesprochen, HA enthält Labelbenutzung)
  - Tag 4:
+    - HA: Xelatex, ref, varioref
     - noch fehlende Teile: Abstracts, Fußnoten, dt. Anführungszeichen
-    - 
-    - 
- - Tag 5:
-    - 
-    - 
-    - 
+    - Booktabs
+    - Grafiken einbinden, Weiten
+    - Verzeichnisse (listoffigures, listoftables)
+    - Mathematik/Formeln (Zeichenfinder)
+    - Bibliographie mit Biber und eigenem, korrektem Stil (Danke, Timm!)
+    - Literaturverwaltung mit Zotero
+    - Präsentationen mit beamer
+ - Tag 5: Linguistikpakete
+    - IPA mit tipa
+    - Alinierungen, Beispiele, usw.: covington
+    - Bäume: forest, avm
+    - Beispiele: linguex, gb4e, expex
+    - ?
 
 ## Sonstiges
 
