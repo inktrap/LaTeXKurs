@@ -1,0 +1,34 @@
+\begin{frame}[fragile]{Grafiken}
+    \begin{itemize}[<+->]
+        \item das Paket \texttt{graphicx} laden
+        \item kann Windows den \texttt{/}?
+    \end{itemize}
+    \begin{lstlisting}
+    \usepackage{graphicx}
+    % Achtung, richtige Stelle, Olga!
+    \includegraphics[Optionen]{Pfad/Dateiname}
+    \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Etablierte Einbindung von Grafiken}
+    \begin{itemize}[<+->]
+        \item im Rahmen unserer Projektplanung wählen wir einen relativen Pfad zum Bildordner
+        \item Linux: \texttt{../../img/knuth.jpg} unter Windows: ?
+    \end{itemize}
+        \begin{lstlisting}
+        \includegraphics[
+            width=\textwidth*0.8,
+            height=\textheight*0.8,
+            keepaspectratio]
+        {PFAD}
+        \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Etablierte Einbindung von Grafiken}
+    \begin{itemize}[<+->]
+        \item darum legen wir nun eine \texttt{figure}-Umgebung
+        \item \texttt{figure} ist so ähnlich wie \texttt{table}
+        \item dort können wir auch wieder vieles bestimmen
+        \item Beispiele: \href{https://en.wikibooks.org/wiki/LaTeX/Floats,_Figures_and_Captions}{Wikibook}
+    \end{itemize}
+\end{frame}

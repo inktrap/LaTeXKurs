@@ -1,0 +1,32 @@
+\begin{frame}[fragile]{Hausaufgaben}
+
+\begin{itemize}[<+->]
+    \item Hausaufgabe: versuchen Sie\footnote{Das war doch schwieriger als gedacht!}, eines ihrer Dokumente unter \XeTeX zu erstellen
+    \item Lösung: \href{}{XeTeX-Beispiel}
+    \item Hausaufgabe 2: spielen Sie mit \lstinline|label| und \lstinline|ref| herum
+    \item Lösung: \lstinline|\label{labelname}| und \lstinline|ref{labelname}| danach und mehrfach kompilieren
+    \item Hausaufgabe 2.5: machen Sie sich auch mit dem Paket \lstinline|varioref| vertraut, wo liegen hier die Unterschiede zu \lstinline|ref|?
+    \item \href{}{Beispiel}
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}[fragile]{Hausaufgaben}
+    
+    \begin{itemize}[<+->]
+        \item Hausaufgabe 3: seien Sie stark und inkludieren Sie alles einmal testweise!
+        \item dauert lange, oder?
+        \item Hausaufgabe 4: setzen Sie den Zähler nach dem Deckblatt zurück
+        \item Lösung: Seitenzähler zurücksetzen: \lstinline|\setcounter{page}{1}| oder \lstinline|\addtocounter{page}{-1}|
+        \item Hausaufgabe 5: setzen Sie die Art der Seitenzahl der aktuellen Seite auf \texttt{roman}
+        \item \begin{lstlisting}
+        \pagenumbering{roman}
+        foobar
+        \clearpage
+        \pagenumbering{arabic}
+        foobar
+        \end{lstlisting}
+    \end{itemize}
+
+\end{frame}
+

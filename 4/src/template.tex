@@ -59,7 +59,7 @@
 
 \lstset{
     language=[LaTeX]{TeX},
-      basicstyle=\normalsize,        % the size of the fonts that are used for the code
+      basicstyle=\normalsize\ttfamily,        % the size of the fonts that are used for the code
     }
 
 \date{}
@@ -68,6 +68,8 @@
 \subtitle{Vierte Sitzung}
 \date{\today}
 
+%\includeonly{beamer, biber}
+
 \begin{document}
 
 \maketitle
@@ -75,8 +77,11 @@
 \title{Ablauf}
 \include{procedure}
 
-\title{Antworten}
+\title{Hausaufgaben}
 \include{answers}
+
+\title{Fehlende Teile}
+\include{missing}
 
 \title{Booktabs}
 \include{booktabs}
@@ -84,9 +89,17 @@
 \title{Float und Grafiken}
 \include{floats}
 
+%\title{Mathematik}
+%\include{math}
+
+\title{Bibliographie}
+\include{biber}
+
+\title{Präsentationen}
+\include{beamer}
+%\title{Pause}
+
 \title{Hausaufgaben}
 \include{homework}
-
-%\title{Pause}
 
 \end{document}

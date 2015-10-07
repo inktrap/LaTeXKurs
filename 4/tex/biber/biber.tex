@@ -1,0 +1,42 @@
+\documentclass[12pt,oneside,paper=a4,ngerman]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+% utf8x kann mehr sonderzeichen usw.
+% wird aber wohl nicht mehr gepflegt und
+% utf8 ist die bessere Wahl. Oder XeTeX
+\usepackage[utf8]{inputenc}
+
+\usepackage{blindtext}
+\usepackage{newcent}
+
+\usepackage{varioref}
+\usepackage{hyperref}
+\usepackage{csquotes}
+
+\usepackage[backend=biber,
+        bibstyle=biblatex-sp-unified,
+        citestyle=sp-authoryear-comp,
+        maxcitenames=3,
+        maxbibnames=99]{biblatex}
+
+% danach die bibliographie laden, .bib ist obligatorisch!
+\addbibresource{example.bib}
+
+\begin{document}
+\section{Ich bin ein Beispiel}
+
+According to this guy \citet[1]{Knuth:1997:ACP:260999}
+\begin{quote}
+    \blindtext
+\end{quote}
+According to this guy \citep[1]{Knuth:1997:ACP:260999}
+\begin{quote}
+    \blindtext
+\end{quote}
+\clearpage
+\printbibliography
+\end{document}
+
+
+

@@ -1,0 +1,37 @@
+\documentclass[12pt,oneside,paper=a4,ngerman]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+% utf8x kann mehr sonderzeichen usw.
+% wird aber wohl nicht mehr gepflegt und
+% utf8 ist die bessere Wahl. Oder XeTeX
+\usepackage[utf8]{inputenc}
+
+\usepackage{blindtext}
+\usepackage{newcent}
+
+\usepackage{varioref}
+\usepackage{hyperref}
+
+%\includeonly{}
+
+\pagestyle{headings} % dies gibt uns eine Kopfzeile mit Titel und Nummer der Überschrift
+%\pagenumbering{roman}
+
+\begin{document}
+\section{Ich bin ein Beispiel}\label{sec:Beispiel}
+
+\blindtext
+\clearpage
+
+Ich bin ein Verweis mit ref: siehe \ref{sec:Beispiel}\\
+Ich bin ein Verweis mit varioref: siehe \vref{sec:Beispiel}\\
+Und \href{https://www.ctan.org/pkg/cleveref}{cleveref} kann das noch schöner\\
+
+\end{document}
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+% ein minimales XeTeX-Dokument
+% siehe: <https://wiki.ubuntuusers.de/XeTeX#Bekannte-Probleme>
+% für die Kompilierung muss man seine IDE bemühen
+% gut ist auch <https://de.wikipedia.org/wiki/XeTeX>
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{mathspec}
+\usepackage{polyglossia}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{amsfonts,amsrefs,amsthm}
+
+% language specific data
+% you have to install the fonts,
+% like <texlive-lang-japanese>
+% like <texlive-lang-chinese>
+\usepackage{xeCJK}
+
+\begin{document}
+    \section{Systemschrift sagt}
+        电脑死机了。\\
+        My computer has frozen.\\
+
+    \section{Japanese}
+        すべての人間は、生まれながらにして自由であり、
+        かつ、尊厳と権利と について平等である。
+        人間は、理性と良心とを授けられており、
+        互いに同胞の精神をもって行動しなければならない。
+\end{document}
