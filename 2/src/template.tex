@@ -9,7 +9,12 @@
 \usepackage{lmodern}
 \usepackage{metalogo}
 \usepackage{listings}
-\usepackage{url}
+\usepackage{hyperref}
+\lstset{
+    language=[LaTeX]{TeX},
+      basicstyle=\normalsize\ttfamily,        % size:normal, family:mono
+      breaklines=true,
+    }
 
 \ifxetex
   \usepackage{fontspec,xltxtra,xunicode}
@@ -30,7 +35,6 @@
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
-\usepackage{url}
 
 % Comment these out if you don't want a slide with just the
 % part/section/subsection/subsubsection title:
