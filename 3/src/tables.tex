@@ -1,0 +1,44 @@
+\begin{frame}[fragile]{Tabellen}
+    \begin{itemize}[<+->]
+        \item eine Tabelle hat einen Anfang: \lstinline|\begin{tabular}|
+        \item und ein Ende \lstinline|\end{tabular}|
+        \item dann kommt eine Kopfzeile: \lstinline| Pferde & Schafe & Ziegen & Hasen \\|
+        \item dann eben Zeilen mit Werten: \lstinline| 1 & 2 & 3 & 4 \\ |
+        \item jetzt wissen wir auch warum wir \& maskieren müssen.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Tabellen mit Strichen}
+    \begin{itemize}[<+->]
+        \item einen vertikalen Strich fügen wir mit \lstinline|\hline| hinter \lstinline|\\| hinzu
+        \item die Zellenausrichtung bestimmen wir vorher \lstinline|\begin{tabular}{lrlr}|
+        \item möglich ist auch \texttt{c}. Wichtig: Pro Spalte eine Angabe, maximal!
+        \item was passiert bei weniger/mehr?
+        \item was macht \lstinline!\begin{tabular}{l|r|l|r}|!?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{table-Umgebung}
+    wir legen unsere Tabelle (\texttt{tabular}) in eine \texttt{table}-Umgebung
+        \begin{lstlisting}
+        \begin{table}[h!]
+            \begin{center}
+                \caption{Caption for the table.}
+                \label{tab:table1}
+                % tabelle hier hin
+            \end{center}
+        \end{table}
+        \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Neu gelernt!}
+    \begin{itemize}[<+->]
+        \item \lstinline|\table|
+        \item Platzierung ist wichtig!
+        \item Tabellenplatzierung \lstinline|\begin{table}[Position] ... \end{table}|
+        \item Parameter: \lstinline|b, h, p und t (Default: tbp)| (Kombination mit \texttt{!} erzwingt!)
+        \item \lstinline|\centering|
+        \item \lstinline|\caption|
+        \item \lstinline|\label| und \lstinline|\ref|? 
+    \end{itemize}
+\end{frame}

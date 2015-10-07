@@ -1,0 +1,103 @@
+\documentclass[]{beamer}
+% ignorenonframetext
+\usetheme{Dresden}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{:}
+\setbeamercolor{caption name}{fg=normal text.fg}
+\usepackage{amssymb,amsmath}
+\usepackage{textcomp}
+\usepackage{ifxetex,ifluatex}
+\usepackage{lmodern}
+\usepackage{metalogo}
+\usepackage[Q=yes]{examplep}
+\usepackage{hyperref}
+\usepackage{metalogo}
+\usepackage{listings}
+\usepackage{soul}
+
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+    \newcommand{\euro}{€}
+  \else
+    \usepackage[T1]{fontenc}
+    \usepackage[ngerman]{babel}
+    \usepackage[utf8]{inputenc}
+      \fi
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage{url}
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\lstset{
+    language=[LaTeX]{TeX},
+      basicstyle=\normalsize,        % the size of the fonts that are used for the code
+    }
+% if you want to add LaTeX within your code
+
+\date{}
+\author{Valentin Heinz}
+\title{\LaTeX \ für Einsteiger}
+\subtitle{Dritte Sitzung}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\title{Ablauf}
+\include{procedure}
+
+\title{Grundgerüst}
+\include{document}
+
+\title{include}
+\include{include}
+
+\title{Titelseite}
+\include{titlepage}
+
+\title{Seitenstil}
+\include{pagestyle}
+
+\title{Tabellen}
+\include{tables}
+
+\title{Float und Grafiken}
+\include{floats}
+
+%\title{Pause}
+
+\title{Vertiefungen und Ergänzungen}
+
+\end{document}

@@ -1,0 +1,42 @@
+\begin{frame}{Struktur und Text}
+    \begin{itemize}[<+->]
+        \item Dokumenterstellung, Dokumentklasse, Optionen
+        \item Sprachoptionen, Eingabeencoding, Buchstabenencoding
+        \item Abschnitte und Unterabschnitte
+        \item Blindtextpaket laden und Text einfügen
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Wiederholung}
+    \begin{itemize}[<+->]
+        \item fontenc: Ausgabeformatierung (passende Ausgabe erzeugen) \textbf{zuerst laden!}
+        \item babel: Sprachoptionen laden, z.B. Datumsanpassung an den Sprachraum
+        \item inputenc: Eingabeformatierung (viele Zeichen/Buchstaben direkt eingeben) \textbf{danach laden!}
+        \item zur Kompilierung benutzen wir \texttt{pdfTeX}
+        \item aber es gibt auch \XeTeX und \LuaTeX
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Schriftformatierung}
+    \begin{itemize}
+        \item \href{https://tex.stackexchange.com/questions/59403/what-font-packages-are-installed-in-tex-live/59405#59405}{stackexchange} hilft weiter
+        \item für helvetica einfach \lstinline|\usepackage{helvet}| verwenden. Fertig.
+        \item einfach \lstinline|\usepackage{newcnt}| verwenden. Fertig.
+        \item nicht-Blindtext kursiv, monospace, fett bzw. als Kapitälchen formatieren
+        \item die vorherigen Formatierungen mischen
+        \item Serifenformatierung und Romanische Schrift für ausgewählte Abschnitte benutzen
+        \item \lstinline|\rmfamily{}| und \lstinline|\sffamily|
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Ausrichtung, Absätze, Lass-mich-in-Ruhe}
+    \begin{itemize}
+        \item wie formatieren wir einen Teil rechtsbündig, Blocksatz bzw. linksbündig?
+        \item wie erzeugen wir einen Zeilenumbruch?
+        \item wie einen Paragraphen?
+        \item wie unformatierten Text (Umgebung, inline)?
+    \end{itemize}
+\end{frame}
+
+
+
