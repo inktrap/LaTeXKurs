@@ -1,0 +1,85 @@
+    % hier üben wir überschriften
+    \section{Hallo Welt}
+    \subsection{Oh Gott, nein dafür bin ich nicht so kreativ!}
+    \blindtext[1]
+    \subsection[omg]{Oh Gott, nein dafür bin ich nicht so kreativ!}
+        \blindtext[1]
+    \section{Weil es so toll ist}
+    \subsection{Ein weiterer Punkt}
+    Hallo
+    % FIXME warum funktioniert das nicht? 
+    %\begin{textit}
+    %    Valentin
+    %\end{textit}
+    
+    %\textit{Valentin}
+    %FIXME: inputenc-Probleme
+    
+    % hier üben wir textformatierungen
+    \textsc{Valentin} muss \textit{newcnt} zu newcent korrigieren in den Folien
+    weil niemand einen \textbf{GitHub}-\texttt{Account} hat
+    \textbf{\texttt{geschachtelt}}. \rmfamily{romanisch} und \sffamily. Unterschied. \textsf{Das hier geht auch}. Wirklich
+     
+     % hier wird die textgrösse geändert
+    \tiny Wirklich klein
+    \normalsize Normal
+    \tiny{Wirklich klein}
+    % FIXME aber schalter sind doch besser, weil der Skopus von \tiny{skopus} auch das hier umfasst.
+    
+    % reset der Größe und Schriftfamilie
+    \normalsize
+    \rmfamily
+    
+    % Hier formatieren wir Text rechtsseitig, linksseitig
+    % und als zentriert
+    \begin{flushright}
+    \blindtext
+    \end{flushright}
+    \begin{center}
+    \blindtext
+    \end{center}
+    \begin{flushleft}
+    \blindtext
+    \end{flushleft}
+     
+    % harter Zeilenumbruch
+    ich bin eine Zeile\\
+    und ich bin eine neuen Zeile
+    
+    % diese Schreibweise ist konsistent zur
+    % Überschriftenschreibweise
+    \paragraph{Ich bin ein Absatz \blindtext}
+        Das hier ist wieder normale Schrift.
+    \subparagraph{Unterabsatz \blindtext}
+        Das hier ist wieder normale Schrift.
+    
+    % aber das geht auch als Umgebung
+    \begin{paragraph}
+        Ein neuer Absatz als Umgebung \blindtext
+    \end{paragraph}
+
+    Das hier ist wieder normale Schrift.
+    
+    % das hier ist Text völlig unformatiert
+    \begin{verbatim}
+    ich erscheine einfach so
+    \textbf{ich bin gar nicht so dick}
+    Zeilenumbrüche gehen auch direkt
+    \end{verbatim}
+    
+    Ich bin ein normale Umgebung, hier geht
+    ein Zeilenumbruch ganz anders.
+    
+    % unformatiert, inline
+    Jetzt noch \verb+inline alles was man schreiben will+ \\
+    Neu; \verb_hier ist das mit einem Unterstrich_ \\
+    
+    \begin{verbatim}
+    \verb+Ein plus in dieser Zeile\++
+    dafür kann man aber jedes  mögliche Zeichen
+    statt dem Plus nehmen
+    \end{verbatim}
+
+    % von 10:00 - 10:50 Installationsschmerzen
+    % von 10:50 - 12:30 sind wir bis "Hausputz" gekommen
+    % Mittagspause bis 13:30
