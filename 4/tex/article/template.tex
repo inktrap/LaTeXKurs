@@ -11,7 +11,19 @@
 \usepackage{newcent} % New Century Schoolbook Schriftart
 \usepackage[german]{varioref} % gibt schönere Verweise, Namensschema beachten
 
-\includeonly{tables} % wir wollen nur das hier tatsächlich einbinden
+\usepackage{booktabs} % schöne Tabellen
+\usepackage{graphicx} % Bilder einbinden
+\usepackage{hyperref}
+% nachträgliche Konfiguration von hyperref
+\hypersetup{
+    colorlinks,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
+
+\includeonly{titlepage, document} % wir wollen nur das hier tatsächlich einbinden
+
 
 \pagestyle{headings} % dies gibt uns eine Kopfzeile mit Titel und Nummer der Überschrift
 %\pagenumbering{roman}
@@ -21,4 +33,5 @@
 \include{document}
 \include{pagestyle}
 \include{tables}
+\include{images}
 \end{document}
