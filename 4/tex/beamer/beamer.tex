@@ -1,0 +1,40 @@
+\documentclass[]{beamer}
+\usetheme{Berlin}
+
+% unsere Pakete wie immer
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+% utf8x kann mehr sonderzeichen usw.
+% wird aber wohl nicht mehr gepflegt und
+% utf8 ist die bessere Wahl. Oder XeTeX
+\usepackage[utf8]{inputenc}
+
+\author{Der gesamte Kurs}
+\title{Hello Kurs}
+\date{24.12.2015}
+
+% frame darf man NIE einrücken und es darf auch
+% KEIN Kommentar nach dem Öffnen der Frame-Umgebung kommen!!
+\begin{document}
+
+\maketitle
+
+\begin{frame}[fragile]{Ääähm Grundkurs Linguistik}
+    \begin{itemize}
+    \item Umgebung Frame aufmachen. Maaaaann. HAHAHAA.
+    \end{itemize}
+\end{frame}
+
+% wir lassen items nach und nach erscheinen
+
+\begin{frame}[fragile]{Ääähm Grundkurs Linguistik}
+    \begin{itemize}[<+->]
+        \item Umgebung Frame aufmachen.
+        \item aber nach und nach
+        \item Maaaaann. HAHAHAA.
+    \end{itemize}
+\end{frame}
+
+% viele andere Optionen und Templates gibt es auch
+
+\end{document}

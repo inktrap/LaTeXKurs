@@ -21,12 +21,33 @@
     citecolor=black,
     urlcolor=blue
 }
+\usepackage{csquotes}
 
-\includeonly{titlepage, document} % wir wollen nur das hier tatsächlich einbinden
+% Standardweg eine Bibliographie einzubinden
+% dann stehen im Dokument die Befehle \autocite und \textcite
+% zur verfügung, KEIN citet oder citep.
+%\usepackage[backend=biber,bibstyle=authortitle]{biblatex}
 
+% Ein anderer stil: biblatex-sp-undefined
+% diesen hier verwenden wir, auch wenn es etwas komplexer ist
+% hier stehen die Befehle citet und citep und cite wie gewohnt zur Verfügung
+% bibliographie konfiguration von
+% <https://github.com/semprag/biblatex-sp-unified>
+% via biblatex
+\usepackage[backend=biber,
+    bibstyle=authoryear,
+    bibstyle=biblatex-sp-unified,
+    citestyle=sp-authoryear-comp,
+    maxcitenames=3,
+    maxbibnames=99]{biblatex}
+
+% unsere bibliographie
+\addbibresource{example.bib}
 
 \pagestyle{headings} % dies gibt uns eine Kopfzeile mit Titel und Nummer der Überschrift
 %\pagenumbering{roman}
+
+%\includeonly{citations}
 
 \begin{document}
 \include{titlepage}
@@ -34,4 +55,6 @@
 \include{pagestyle}
 \include{tables}
 \include{images}
+%\include{citations}
+%\printbibliography
 \end{document}
