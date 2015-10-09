@@ -1,0 +1,68 @@
+\begin{frame}[fragile]{Mathematik}
+    \begin{itemize}[<+->]
+        \item Achtung: eine kurze, unvollständige Einführung!!
+        \item Bereiche: im Text oder in einer Umgebung
+        \item \texttt{inline}: \lstinline|\( Mathematikmodus \) $ Mathematikmodus $ |
+        \item oder als Umgebung. Wie?
+        \item längere Formeln kann man als \texttt{displaymath} setzen:
+        \item \lstinline|\[ \]| oder \lstinline|\begin{displaymath} \end{displaymath}|
+        \item Gleichungen per \texttt{equation}-Umgebung
+        \item \texttt{amsmath}-Paket ist der Standard
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Mathematik: Brüche, Wurzel}
+    \begin{itemize}[<+->]
+        \item Syntax: \lstinline|\frac{numerator}{denominator}|
+        \item \lstinline|\(\frac{a}{b}\)|\is \(\frac{a}{b}\)
+        \item Syntax: \lstinline|base^{exponent}| Bsp: \item \lstinline|3^{20}|\is \(3^{20}\)
+        \item \lstinline| \( 5 + 3^{2} = 14\)|\is{} \( 5 + 3^{2} = 14\)
+        \item \lstinline|\(\sqrt{\frac{a}{b}}\)|\is \(\sqrt{\frac{a}{b}}\)
+        \item Indices: \(a_{1}\)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Beispiele}
+    \begin{itemize}[<+->]
+        \item \lstinline| \(\neg\forall x P(x) \equiv \exists x \neg P(x)\)|\is \(\neg\forall x P(x) \equiv \exists x \neg P(x)\)
+        \item \lstinline| \( \frac{1}{n} \sum_{i=i}^{n} x_{i} \)|\is{} \( \frac{1}{n} \sum_{i=i}^{n} x_{i} \)
+    \end{itemize}
+    \begin{lstlisting}
+\begin{displaymath}
+    \cos A \cos B
+    = \frac{1}{2}\left[ \cos(A-B)+\cos(A+B) \right]
+\end{displaymath}
+\end{lstlisting}
+\begin{displaymath}\cos A \cos B
+    = \frac{1}{2}\left[ \cos(A-B)+\cos(A+B) \right]
+\end{displaymath}
+\end{frame}
+
+\begin{frame}[fragile]{Aligned numbered Equation}
+    \begin{lstlisting}
+    \begin{align}
+    z_0 &= d = 0 \\
+    z_{n+1} &= z_n^2+c
+    \end{align}
+    \end{lstlisting}
+    \begin{align}
+    z_0 &= d = 0 \\
+    z_{n+1} &= z_n^2+c
+    \end{align}
+\end{frame}
+
+
+
+\begin{frame}[fragile]{Zusammenfassung}
+    \begin{itemize}[<+->]
+        \item Leerzeichen werden nicht interpretiert
+        \item \texttt{\textbackslash} per Makro \lstinline|\backslash|
+        \item \lstinline|^| und \lstinline|_| haben eine besondere Bedeutung
+        \item es gibt ein paar Symbole: \href{https://en.wikibooks.org/wiki/LaTeX/Mathematics#List_of_Mathematical_Symbols}{per default}
+        \item \href{http://milde.users.sourceforge.net/LUCR/Math/mathpackages/amssymb-symbols.pdf}{Amssymb hat mehr}
+        \item Skoping ist wichtig: \lstinline|2^ab| ist nicht $ 2^{ab} $ sondern $ 2^ab$
+        \item Bonus: \href{http://detexify.kirelabs.org/classify.html}{Symbolerkennung}
+        \item Aufgabe: setzen Sie eine Formel für das arithmetische Mittel per Summenformel
+    \end{itemize}
+\end{frame}
+

@@ -1,0 +1,21 @@
+\begin{frame}[fragile]{Phonetik}
+    \begin{itemize}[<+->]
+        \item \texttt{tipa}-Paket: \href{ftp://ftp.dante.de/tex-archive/fonts/tipa/tipaman.pdf}{Anleitung}
+        \item Vorteil: extrem kurze und kompakte Schreibweise von IPA-Zeichen und Akzenten, Diakritika usw.
+        \item Optionen: \lstinline|\usepackage[T1]{tipa}|
+        \item mehrere Umgebungen: \lstinline| \textipa \begin{IPA}\end{IPA}|
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Phonetik}
+    \begin{quote}
+        A shortcut character refers to a single character that is assigned to a specific phonetic symbol and that can be directly inputted by an ordinary keyboard.
+    \end{quote}
+    \begin{itemize}[<+->]
+        \item Quelle und Beispiele, siehe Dokumentation
+        \item \lstinline|\textipa{[""Ekspl@"neIS@n]}| \is \textipa{[""Ekspl@"neIS@n]}
+        \item Diakritika und Akzente per Kurzform: \lstinline|\textsubstring{a}| als \lstinline|\r*a| ergibt \textipa{\r*a}
+        \item Aufgabe: versuchen Sie die Trankription \textipa{"la:tE\c{c}} zu erstellen.
+        \item \href{http://meluhha.com/tableau/tipa.html}{Hilfe?}
+    \end{itemize}
+\end{frame}

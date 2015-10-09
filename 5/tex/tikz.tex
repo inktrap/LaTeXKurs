@@ -1,0 +1,42 @@
+\documentclass[12pt,oneside,paper=a4,ngerman]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+% utf8x kann mehr sonderzeichen usw.
+% wird aber wohl nicht mehr gepflegt und
+% utf8 ist die bessere Wahl. Oder XeTeX
+\usepackage[utf8]{inputenc}
+
+\usepackage{newcent} % New Century Schoolbook Schriftart
+\usepackage{hyperref}
+% nachträgliche Konfiguration von hyperref
+\hypersetup{
+    colorlinks,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
+\usepackage{csquotes}
+
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}
+\tikz \draw (0,0) -- (3,0) -- (3,5) -- cycle;
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\tikz \draw (0,0) circle [radius=5];
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node{S}
+child {node {NP}
+    child{node {N}}
+}
+child{node{VP}
+    child{node{V}}
+    child{node{N}}
+};
+\end{tikzpicture}
+\end{document}

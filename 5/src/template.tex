@@ -1,27 +1,21 @@
 \documentclass[]{beamer}
+%\documentclass[handout]{beamer}
 % ignorenonframetext
 \usetheme{Dresden}
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption label separator}{:}
 \setbeamercolor{caption name}{fg=normal text.fg}
 \usepackage{amssymb,amsmath}
+\usepackage{textcomp}
 \usepackage{ifxetex,ifluatex}
 \usepackage{lmodern}
 \usepackage{metalogo}
-\usepackage{listings}
-\lstset{
-    language=[LaTeX]{TeX},
-      basicstyle=\normalsize\ttfamily,        % size:normal, family:mono
-      breaklines=true,
-    }
-
 \usepackage{hyperref}
-\hypersetup{
-     colorlinks   = true,
-     linkcolor    = blue,
-     urlcolor     = blue,
-     citecolor    = gray
-}
+\usepackage{metalogo} % if you want to add LaTeX within your code
+\usepackage{listings}
+\usepackage{soul}
+\usepackage{color}
+\usepackage[T1]{tipa}
 
 \ifxetex
   \usepackage{fontspec,xltxtra,xunicode}
@@ -66,11 +60,25 @@
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \setcounter{secnumdepth}{0}
 
+\lstset{
+    language=[LaTeX]{TeX},
+      basicstyle=\small\ttfamily,        % the size of the fonts that are used for the code
+    }
+
+\hypersetup{
+     colorlinks   = true,
+     linkcolor    = blue,
+     urlcolor     = blue,
+     citecolor    = gray
+}
+
+\newcommand{\is}{\textcolor{red}{:}\ }
+
 \date{}
 \author{Valentin Heinz}
 \title{\LaTeX \ für Einsteiger}
-\date{06.10.2015}
-\subtitle{Zweite Sitzung}
+\date{09.10.2015}
+\subtitle{Fünfte Sitzung}
 
 %\includeonly{}
 
@@ -78,43 +86,28 @@
 
 \maketitle
 
-\title{Wiederholung}
-\include{repeat}
+\title{Ablauf}
+\include{procedure}
 
-\title{Fragen von letzter Stunde}
-\include{questions}
+\title{Hausaufgaben}
+\include{answers}
 
-\title{Themen}
-\include{topics}
+\title{Mathematik}
+\include{math}
 
-\title{Dokumenttypen und Schrift}
-\include{font}
+\title{Phonetik}
+\include{phonetics}
 
-\title{Titelseite}
-\include{title}
+\title{Alinierung}
+\include{align}
 
-\title{Reservierte Zeichen}
-\include{escape}
+\title{Tikz}
+\include{tikz}
 
-\title{Leerzeichen und Abstände}
-\include{spaces}
+\title{Trees}
+\include{trees}
 
-\title{Seitengestaltung}
-\include{pages}
-
-\title{Nummerierung anpassen}
-\include{numbering}
-
-\title{Eigene Befehle}
-\include{cmd}
-
-\title{Hausaufgabe}
-\include{ha}
-
-\title{Die IDE}
-\include{texstudio}
-
-\title{Pause}
-\include{break}
+\title{Hausaufgaben}
+\include{homework}
 
 \end{document}
