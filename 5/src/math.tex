@@ -1,13 +1,13 @@
 \begin{frame}[fragile]{Mathematik}
     \begin{itemize}[<+->]
         \item Achtung: eine kurze, unvollständige Einführung!!
+        \item \texttt{amsmath}-Paket ist der Standard. \texttt{amssymb amsfonts} für Symbole, Fonts.
         \item Bereiche: im Text oder in einer Umgebung
         \item \texttt{inline}: \lstinline|\( Mathematikmodus \) $ Mathematikmodus $ |
-        \item oder als Umgebung. Wie?
+        \item oder als Umgebung. Fragen: Wie?
         \item längere Formeln kann man als \texttt{displaymath} setzen:
         \item \lstinline|\[ \]| oder \lstinline|\begin{displaymath} \end{displaymath}|
         \item Gleichungen per \texttt{equation}-Umgebung
-        \item \texttt{amsmath}-Paket ist der Standard
     \end{itemize}
 \end{frame}
 
@@ -15,10 +15,12 @@
     \begin{itemize}[<+->]
         \item Syntax: \lstinline|\frac{numerator}{denominator}|
         \item \lstinline|\(\frac{a}{b}\)|\is \(\frac{a}{b}\)
-        \item Syntax: \lstinline|base^{exponent}| Bsp: \item \lstinline|3^{20}|\is \(3^{20}\)
-        \item \lstinline| \( 5 + 3^{2} = 14\)|\is{} \( 5 + 3^{2} = 14\)
+        \item Syntax: \lstinline|base^{exponent}| 
+        \item Bsp: \lstinline|3^{20}|\is \(3^{20}\)
+        \item \lstinline| \( 5 + 3^{2} = 14\)|\is \( 5 + 3^{2} = 14\)
+        \item Syntax: \lstinline|\(\sqrt[root]{arg}\)| Bsp: \lstinline|\(\sqrt[3]{5}\)|\is \(\sqrt[3]{5}\)
         \item \lstinline|\(\sqrt{\frac{a}{b}}\)|\is \(\sqrt{\frac{a}{b}}\)
-        \item Indices: \(a_{1}\)
+        \item Indices: \lstinline|\(a_{1}\)|\is \(a_{1}\)
     \end{itemize}
 \end{frame}
 
@@ -51,6 +53,12 @@
     \end{align}
 \end{frame}
 
+\begin{frame}[fragile]{Theoreme, Beweise}
+    \begin{itemize}[<+->]
+        \item \lstinline| \begin{theorem} \end{theorem}| (\texttt{corollary lemma})
+        \item Beispiele: \href{https://de.sharelatex.com/learn/Theorems_and_proofs}{theorems, definitions, corollaries and lemmas}
+    \end{itemize}
+\end{frame}
 
 
 \begin{frame}[fragile]{Zusammenfassung}
