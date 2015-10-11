@@ -7,7 +7,7 @@ Alles ist nach Möglichkeit nach Vorlesungstag sortiert.
  - die (eventuell überarbeiteten) Folien sind als ``template.pdf`` gespeichert
  - ``tex`` enthält die erstellten sowie verwendeten Beispiele
  - ``src`` enthält die Quelltexte der Folien
- - ``cheatsheets`` der Teilnehmer, mit Erlaubnis veröffentlicht
+ - die ``cheatsheets`` der Teilnehmer sind nicht nach Vorlesungstagen sortiert und wurden mit Erlaubnis veröffentlicht.
 
 ## Wiki
 
