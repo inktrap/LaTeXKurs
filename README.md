@@ -52,15 +52,17 @@ Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
     - Booktabs
     - Grafiken einbinden, Weiten
     - Verzeichnisse (listoffigures, listoftables)
-    - Mathematik/Formeln (Zeichenfinder)
     - Bibliographie mit Biber und eigenem, korrektem Stil (Danke, Timm!)
     - Literaturverwaltung mit Zotero
     - Präsentationen mit beamer
  - Tag 5: Linguistikpakete
+    - Mathematik/Formeln (Zeichenfinder)
     - IPA mit tipa
     - Alinierungen, Beispiele, usw.: covington
-    - Bäume: forest, avm
+    - Bäume: forest
     - Beispiele: linguex, gb4e, expex
+    - Merkmalsstrukturen: avm
+    - Warum LaTeX? Typographie!
     - ?
 
 ## Sonstiges
