@@ -7,6 +7,7 @@ Alles ist nach Möglichkeit nach Vorlesungstag sortiert.
  - die (eventuell überarbeiteten) Folien sind als ``template.pdf`` gespeichert
  - ``tex`` enthält die erstellten sowie verwendeten Beispiele
  - ``src`` enthält die Quelltexte der Folien
+ - *Handouts* können einfach durch die Änderung des Quellcodes erzeugt werden. Der Dokumenttyp Beamer bekommt nur die Option ``handout`` und fertig sind die Handouts.
  - die ``cheatsheets`` der Teilnehmer sind nicht nach Vorlesungstagen sortiert und wurden mit Erlaubnis veröffentlicht.
 
 ## Wiki
