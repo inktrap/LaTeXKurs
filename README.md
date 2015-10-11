@@ -18,7 +18,7 @@ Github-Namen, damit ich euch als “collaborator” hinzufügen kann!
 
 ## Kursablauf, behandelte Themen, Schwerpunkte
 
- - [Tag 1](https://github.com/inktrap/LaTeXKurs/blob/master/5/template.pdf): Schwerpunkte: Einführung, Dokumentstruktur und Befehle
+ - [Tag 1](https://github.com/inktrap/LaTeXKurs/blob/master/1/template.pdf): Schwerpunkte: Einführung, Dokumentstruktur und Befehle
     - Organisatorisches
     - LaTeX-Geschichte
     - LaTeX-Eigenschaften
