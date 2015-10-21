@@ -1,0 +1,175 @@
+
+Documentclasses
+\documentclass[alle im Dokument relevanten Optionen mit Komma getrennt]{...}
+Optionen:
+[12pt] Schriftgr��e
+[twoside] Buchform
+[oneside] Standard f�r nicht gebundene Texte
+{Koma-Script-Klassen]
+
+
+Packages
+\usepackage[ngerman]{babel} Sprachdaten deutsch
+\usepackage[utf8x]{inputenc} UTF-8
+\usepackage[T1]{fontenc} Schrifteinbindung
+
+Textfarbe, Gr��e und Format
+\textsf{serifenlosen Text} 
+\rmfamily{Text in romanischer Schrift}
+\texttt{Typewriter Text}
+\rmdefault, \sfdefault und \ttdefault ver�ndern die Defaults fprdie jeweiligen Schrifttypen
+
+�berschriften
+\section{�berschrift}
+\subsection{Unter�berschrift]
+\section*{nicht nummerierte �berschrift}
+
+Listen
+Umgebung (mit den Befehlen \begin{} und \end{} )
+enumerate f�r nummerierte Listen
+itemize f�r nicht nummerierte Listen
+\item f�r einzelne Listenpunkte
+verschachtelte Listen: neue Listenumgebung in Liste
+
+Abs�tze
+\begin{paragraph}
+\end{paragraph}
+\begin{subparagraph}
+\end{subparagraph}
+
+Schriftarten 
+\usepackage[T1]{fontenc} erm�glicht die Benutzung von Schriftarten
+\usepackage{lmodern} z.B. f�r latin modern Schrift
+\usepackage{helvet} f�r Helvetica
+etc. f�r andere Schriftarten
+
+Textausrichtung
+Umgebung {flushleft} f�r linksb�ndig
+Umgebung {flushright} f�r rechtsb�ndig
+Umgebung {center} f�r zentriert
+Umgebung {verbatim} f�r unformatierten Text - �bernimmt auch keine Befehle
+verb+unformatierter Text+ im Flie�text
+Standard: Blocksatz
+
+Bedeutungstragende Zeichen verwenden:
+\$
+\_
+\#
+\%
+\{
+\}
+\textbackslash f�r \
+\textasciitilde f�r Tilde
+\&
+\textasciicircum f�r ^
+
+gr��ere Leerzeichen:
+Text \quad Text
+Text \qquad Text
+
+Zeilenabstand
+Paket setspace
+Optionen/Schalter des Pakets:
+singlespacing
+onehalfspacing
+doublespacing
+Au�erdem: \hspace{L�ngenangabe} und \vspace{L�ngenangabe} f�r horizontale und vertikale Orientierung
+
+Seite einrichten
+\pagestyle
+\thispagestyle
+\pagenumbering
+
+Kopf- und Fu�zeile
+Zeilen jeweils dreigeteilt:
+\lehead \cehead \rehead
+\lefoot \cefoot \refoot
+Beispiel: headers.txt
+
+Matheformeln im Flie�text
+$3+1$
+$\frac{3}{4}$
+$a^{b}$
+$a-b$
+
+Z�hler f�r �berschriften etc. lassen sich festlegen
+\setcounter{secnumdepth}{1}
+
+\today immer aktuelles Datum, durch babel im richtigen Format
+\clearpage neue Seite beginnen
+\pagestyle ver�ndert den Seitenstil - in der Pr�ambel ausf�hren
+\thispagestyle ver�ndert den Stil der aktuellen Seite
+
+eigene Befehle definieren:
+in der Pr�ambel
+\newcommand{\befehlsname}{Aufgabe}
+im Dokument
+\befehlsname f�hrt Aufgabe aus
+\newcommand{\otto}[1]{Aufgabe#1}
+[1] steht f�r Anzahl der Argumente
+
+\includeonly vor dem document als Filter und
+\include{tex-Datei} im document, um gro�e Arbeiten zu organisieren
+
+Inhaltsverzeichnis
+wird bei Verwendung von sections automatisch gef�hrt
+erstellt durch \tableofcontents
+\listoftables f�r Liste von Tabellen
+\listoffigures f�r Liste von Grafiken
+
+Tabellen
+Paket booktabs f�r gutes Tabellendesign (\toprule, \midrule, \bottomrule)
+Mehr in document.tex!
+\begin{tabular}{l|l|l}
+Pferde & Ziegen & Hasen & Schafe
+\end{tabular}
+
+Labels am Besten nur einfach vergeben
+
+Grafiken einbinden
+Umgebung figure
+\usepackage{graphicx}
+\includegraphics[scale=WERT]{Pfad/Dateiname}
+z.B. \includegraphics [width=0.8\textwidth, height=0.8\textheight, keepaspectratio]{PFAD}
+
+Fu�noten
+\footnote{Fu�note}
+
+Anf�hrungszeichen:
+\glqq %Deutsch links
+\grqq %Deutsch rechts
+
+Links:
+Paket hyperref 
+\hypersetup{}
+
+Slides als Umgebung
+\begin{frame}[fragile]{TITEL}
+\begin{itemize}[<+->]
+\item
+\end{itemize}
+\end{frame}
+
+
+
+IPA
+\usepackage[T1]{tipa}
+Umgebung IPA
+
+Notizen
+
+Zotero
+
+texstudio
+txs:///pdflatex
+
+texlive
+mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe
+Anleitung: tug.org/texlive/windows.html
+tex.stackexchange.com
+
+template.tex 
+
+XeTeX versuchen
+Tabellen: label Befehl und Pakete ref und varioref ausprobieren
+Z�hler nach Deckblatt zur�cksetzen
